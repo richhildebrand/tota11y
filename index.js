@@ -17,8 +17,7 @@ require("script!./node_modules/accessibility-developer-tools/dist/js/axs_testing
 
 class Toolbar {
     constructor() {
-        this.activePlugin = plugins.default[0];
-        this.activePlugin.run();
+        this.activePlugin = null;
     }
 
     /**
